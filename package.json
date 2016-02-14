@@ -1,0 +1,27 @@
+{
+  "name": "pm2-webhook",
+  "version": "1.0.0",
+  "description": "PM2 handler for github/bitbucket webhooks to update your project",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pm2": "^1.0.1",
+    "pmx": "beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oowl/pm2-webhook.git"
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
+  "author": {
+    "email": "isaykin@gmail.com",
+    "name": "Anton Isaykin"
+  },
+  "license": "MIT"
+}
