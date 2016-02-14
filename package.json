@@ -1,10 +1,9 @@
 {
   "name": "pm2-webhook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PM2 handler for github/bitbucket webhooks to update your project",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.4",
     "pm2": "^1.0.1",
     "pmx": "beta"
   },
