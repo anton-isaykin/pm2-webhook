@@ -26,7 +26,7 @@ Your repository page → Settings → Webhooks & services → Add webhook
 
 ### PM2 config
 
-Add environment variables in your [ecosystem.json](http://pm2.keymetrics.io/docs/usage/application-declaration/) file. Only __WEBHOOK_PORT__ variable is mandatory.
+Add environment variables in your [ecosystem.json](http://pm2.keymetrics.io/docs/usage/application-declaration/) file. Only `WEBHOOK_PORT` variable is mandatory.
 
 ```sh
 {
