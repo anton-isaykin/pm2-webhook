@@ -1,14 +1,12 @@
-# PM2 Webhook
+# PM2-Webhook
 
 [![npm](https://img.shields.io/npm/v/pm2-webhook.svg)](https://www.npmjs.com/package/pm2-webhook)
 
-PM2 module for handling webhooks and realtime updating your project.
-
-It supports many listening ports and pathes for different projects at the same time.
+[PM2](https://github.com/Unitech/pm2) module to process webhooks and update your project realtime. Supports multiple ports and pathes.
 
 ## Installation
 
-You have to have pm2 already installed. Just add module
+You must have pm2 installed. Just add module
 
 ```sh
 pm2 install pm2-webhook
@@ -20,6 +18,7 @@ pm2 install pm2-webhook
 
 Your repository page → Settings → Webhooks & services → Add webhook
 
+| Field | Value |
 |---|---|
 | Payload URL | http://example.com:23928/webhook |
 | Content Type | application/json |
@@ -46,4 +45,6 @@ Add environment variables in your [ecosystem.json](http://pm2.keymetrics.io/docs
 }
 ```
 
-That's it. Each time you push in your repository, module runs `pm2 pull <app name>` method for your process.
+Restart your processes with `pm2 startOrGracefulReload ecosystem.json`.
+
+That's it. Each time you push to your repository, this module runs `pm2 pull <app name>`.

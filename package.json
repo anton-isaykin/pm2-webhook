@@ -1,7 +1,7 @@
 {
   "name": "pm2-webhook",
-  "version": "1.0.2",
-  "description": "PM2 handler for github/bitbucket webhooks to update your project",
+  "version": "1.0.3",
+  "description": "PM2 module to process webhooks and update your project realtime. Supports multiple ports and pathes.",
   "main": "app.js",
   "dependencies": {
     "pm2": "^1.0.1",
