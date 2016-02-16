@@ -1,6 +1,7 @@
 # PM2-Webhook
 
 [![npm](https://img.shields.io/npm/v/pm2-webhook.svg)](https://www.npmjs.com/package/pm2-webhook)
+[![npm](https://img.shields.io/npm/dm/pm2-webhook.svg)](https://www.npmjs.com/package/pm2-webhook)
 
 [PM2](https://github.com/Unitech/pm2) module to process webhooks and update your project realtime. Supports multiple ports and pathes.
 
@@ -48,3 +49,8 @@ Add environment variables in your [ecosystem.json](http://pm2.keymetrics.io/docs
 Restart your processes with `pm2 startOrGracefulReload ecosystem.json`.
 
 That's it. Each time you push to your repository, this module runs `pm2 pull <app name>`.
+
+## Thank you
+
+Any feedback is [welcome](https://github.com/oowl/pm2-webhook/issues).
+If you like it, please [star on GitHub](https://github.com/oowl/pm2-webhook).
