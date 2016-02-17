@@ -50,7 +50,11 @@ Restart your processes with `pm2 startOrGracefulReload ecosystem.json`.
 
 That's it. Each time you push to your repository, this module runs `pm2 pull <app name>`.
 
-## Thank you
+## Copyright and license
+
+Copyright 2016 Anton Isaykin.
+
+Licensed under the [MIT License](https://github.com/oowl/pm2-webhook/blob/master/LICENSE).
 
 Any feedback is [welcome](https://github.com/oowl/pm2-webhook/issues).
 If you like it, please [star on GitHub](https://github.com/oowl/pm2-webhook).
