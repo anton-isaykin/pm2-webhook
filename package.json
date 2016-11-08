@@ -5,11 +5,11 @@
   "main": "app.js",
   "dependencies": {
     "pm2": "^2.0.19",
-    "pmx": "^0.6.1"
+    "pmx": "^0.6.8"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oowl/pm2-webhook.git"
+    "url": "git+https://github.com/Dalas/pm2-webhook.git"
   },
   "apps": [
     {
@@ -19,8 +19,8 @@
     }
   ],
   "author": {
-    "email": "isaykin@gmail.com",
-    "name": "Anton Isaykin"
+    "email": "yurkinnnn@gmail.com",
+    "name": "Dalas"
   },
   "license": "MIT"
 }
