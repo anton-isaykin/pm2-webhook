@@ -4,6 +4,7 @@
   "description": "PM2 module to process webhooks and update your project realtime. Supports multiple ports and pathes.",
   "main": "app.js",
   "dependencies": {
+    "lodash": "^4.16.6",
     "pm2": "^2.0.19",
     "pmx": "^0.6.8"
   },
