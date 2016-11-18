@@ -1,6 +1,6 @@
 {
   "name": "pm2-webhook",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "PM2 module to process webhooks and update your project realtime. Supports multiple ports and pathes.",
   "main": "app.js",
   "dependencies": {
