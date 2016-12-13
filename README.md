@@ -33,12 +33,12 @@ Options:
 
 | Option | Type | Example | Required | Default |
 |---|---|---|---|---|---|
-| port | `number` | 27777 | `true` | |
-| path | `string` | "/webhook" | `false` | `/` |
-| secret | `string` | "some secret phrase" | `false` | |
-| action | `string` | "pullAndReload" | `false` | `pullAndRestart` |
-| pre_hook | `string` | "npm run stop" | `false` | |
-| post_hook | `string` | "npm run generate_docs" | `false` | |
+| port | `number` | 27777 | yes | |
+| path | `string` | "/webhook" | no | `/` |
+| secret | `string` | "some secret phrase" | no | |
+| action | `string` | "pullAndReload" | no | `pullAndRestart` |
+| pre_hook | `string` | "npm run stop" | no | |
+| post_hook | `string` | "npm run generate_docs" | no | |
 
 Some notes:
 
