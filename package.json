@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gith<ub.com/Dalas/pm2-webhook.git"
+    "url": "git+https://github.com/Dalas/pm2-webhook.git"
   },
   "apps": [
     {
