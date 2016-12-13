@@ -5,7 +5,7 @@
 
 [PM2](https://github.com/Unitech/pm2) module to process webhooks and update your project realtime. Supports multiple ports and pathes, pre-hook and post-hook features, comparing branches, different types of updating.
 
-This module is advanced version of [pm2-webhook](https://github.com/oowl/pm2-webhook) created by [Anton Isaykin](https://github.com/oowl) (The most important conceptual features have been rewritten).
+This module is advanced version of [pm2-webhook](https://github.com/oowl/pm2-webhook) created by [Anton Isaykin](https://github.com/oowl) (The most important conceptual features have been rewritten. A lot of features have been added).
 
 ## Installation
 
