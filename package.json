@@ -1,7 +1,7 @@
 {
   "name": "pm2-webhook",
-  "version": "2.2.1",
-  "description": "PM2 module to process webhooks and update your project realtime. Supports multiple ports and pathes.",
+  "version": "1.0.0",
+  "description": "PM2 module to process webhooks and update your project realtime. Supports multiple ports and pathes. Have pre/post-hook features. Check branches.",
   "main": "app.js",
   "dependencies": {
     "async": "^2.1.2",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gith<ub.com/Dalas/pm2-webhook.git"
+    "url": "git+https://gith<ub.com/Dalas/pm2-hook.git"
   },
   "apps": [
     {
