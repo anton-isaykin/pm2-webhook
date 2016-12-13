@@ -5,7 +5,7 @@
 
 [PM2](https://github.com/Unitech/pm2) module to process webhooks and update your project realtime. Supports multiple ports and pathes, pre-hook and post-hook features, comparing branches, different types of updating.
 
-This module is advanced version of [pm2-webhook](https://github.com/oowl/pm2-webhook) created by [Anton Isaykin](https://github.com/oowl).
+This module is advanced version of [pm2-webhook](https://github.com/oowl/pm2-webhook) created by [Anton Isaykin](https://github.com/oowl) (The most important conceptual features have been rewritten).
 
 ## Installation
 
@@ -70,7 +70,7 @@ Add environment variables in your [ecosystem.json](http://pm2.keymetrics.io/docs
 If your process has been already started kill it using comand `pm2 delete ecosystem.json` (We need this, because PM2 has some problems with reloading process configuration and if only restart your process nothing will not work :cry:).
 Start your processes with `pm2 start ecosystem.json`.
 
-That's it. Each time you push to your repository, this module runs `pm2 pullAndReload <app name>`.
+That's it. Each time you push to your repository, this module runs `pm2 <action> <app name>`.
 
 ## Copyright and license
 
