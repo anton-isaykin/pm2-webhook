@@ -74,6 +74,6 @@ That's it. Each time you push to your repository, this module runs `pm2 pullAndR
 
 ## Copyright and license
 
-Copyright 2016 Kramarenko Yurii, Poddubniy Dmitry.
+Copyright 2016 Yurii Kramarenko, Dmitry Poddubniy.
 
 Licensed under the [MIT License](https://github.com/Dalas/pm2-webhook/blob/master/LICENSE).
